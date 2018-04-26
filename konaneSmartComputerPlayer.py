@@ -1,4 +1,11 @@
-#Name: Chinedu Emeka
+"""
+@author: Chinedu Emeka
+
+This is an AI agent which plays the game of Konane. 
+It uses an evaluation function along with minimax (alpha beta pruning used to improve efficiency).
+Implementation is in Python 2.7
+
+"""
 
 
 
@@ -98,7 +105,9 @@ def staticEval(board, who):
 #	best (None = not selected as best, anything else = selected)
 #
 
-# Note that a Node has no behavior (methods). That is intentional. It's purpose is simply to help store data. 
+
+
+
 class Node:
 	def __init__(self, level, board, move, who, score='', terminal=None):
                 self.children = []
