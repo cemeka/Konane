@@ -1,5 +1,5 @@
 #Name: Chinedu Emeka
-#Class: CS345 
+
 
 
 from copy import deepcopy; #importing functionality that will help me copy lists later on
